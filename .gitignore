@@ -1,0 +1,2 @@
+# Only ignore node_modules in the students project
+projects/students/node_modules/

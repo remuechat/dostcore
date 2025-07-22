@@ -1,0 +1,54 @@
+<app-login-header></app-login-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="home-content">
+    <p>Explore our programs, apply for scholarships, and stay updated with the latest events.</p>
+    <br>
+    <br>
+
+
+    <!--replace this with @for later on-->
+    
+    <!--UNDERGRADUATE SCHOLARSHIPS-->
+    <div>
+      <h2>S&T UNDERGRADUATE SCHOLARSHIPS</h2>
+      <p>The S&T Undergraduate Scholarships Program aims to stimulate and entice talented Filipino youths to pursue lifetime productive careers in science and technology and ensure a steady, adequate supply of qualified S&T human resources which can steer the country towards national progress.</p>
+      <div>
+        <ion-button color="primary" expand="full" routerLink="/login">Apply now</ion-button>
+        <ion-button expand="full" href="">Learn More</ion-button>
+      </div>
+    </div>
+
+    <!--JLSS SCHOLARSHIPS-->
+    <div>
+      <h2>JUNIOR LEVEL SCIENCE SCHOLARSHIPS</h2>
+      <p>The Junior Level Science Scholarships (JLSS) Program aims to: provide scholarships that will finance the education of talented and deserving students in their third year of college and who are pursuing degree programs in the areas of science and technology; and ensure a steady, adequate supply of qualified S&T human resources who can steer the country towards national progress.</p>
+      <div>
+        <ion-button color="primary" expand="full" routerLink="/undergraduate-scholarships">Apply now</ion-button>
+        <ion-button expand="full" href="google.com">Learn More</ion-button>
+      </div>
+    </div>
+
+    <!--GRADUATE SCHOLARSHIPS-->
+    <div>
+      <h2>DOST-SEI BANGON MARAWI PROGRAM</h2>
+      <p>The DOST-SEI Bangon Marawi Program in Science and Technology Human Resource Development (STHRD) was conceptualized in 2017 following the Marawi City siege. As the DOST'S service insititute for S&T human resource development, the Science Education Institute implemented the scholarship program for the immediate members of families affected or displaced from their communicaties due to the siege.</p>
+      <div>
+        <ion-button color="primary" expand="full" routerLink="/graduate-scholarships">Apply now</ion-button>
+        <ion-button expand="full" href="google.com">Learn More</ion-button>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h2>Latest News</h2>
+    <p>Stay updated with the latest news and events from the Science Education Institute.</p>
+    <ion-button expand="full" routerLink="/events">View Events</ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,14 @@
+ion-header {
+    height: min-content;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    padding-left: 12px;
+    height: 42px;
+    width: 42px;
+}

@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "students": {
+      "name": "students",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "angular-standalone",
+      "root": "projects\\students"
+    }
+  }
+}
